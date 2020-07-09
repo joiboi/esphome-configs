@@ -20,13 +20,10 @@ standard: au
 | GPIO14 | BLUE                       |
 
 ## Basic Config
-
 ```yaml
 substitutions:
   device_name: kogan_RGBWWSTRIP_1
   device_ip: 192.168.x.x
-  
-
 
 esphome:
   name: ${device_name}
@@ -42,7 +39,7 @@ wifi:
     subnet: 255.255.255.0
 
 logger:
-  
+
 api:
   reboot_timeout: 15min
   password: !secret api_password
