@@ -20,6 +20,7 @@ standard: au
 | GPIO14 | BLUE                       |
 
 ## Basic Config
+
 ```yaml
 substitutions:
   device_name: kogan_RGBWWSTRIP_1
