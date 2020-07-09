@@ -19,7 +19,6 @@ standard: au
 | GPIO13 | Warm White                 |
 | GPIO14 | BLUE                       |
 
-
 ## Basic Config
 
 ```yaml
@@ -80,7 +79,6 @@ output:
   - platform: esp8266_pwm
     pin: 13
     id: output_warmwhite
-
 
 light:
   - platform: rgbww
