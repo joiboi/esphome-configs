@@ -23,7 +23,6 @@ standard: global
 | GPIO16 | OTA jumper pin             |
 | GND    | S1 (external switch input) |
 
-
 ## Basic Config
 
 ```yaml
