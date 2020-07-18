@@ -23,7 +23,6 @@ standard: global
 | GPIO16 | OTA jumper pin             |
 | GND    | S1 (external switch input) |
 
-
 ## Basic Config
 
 ```yaml
@@ -62,7 +61,7 @@ binary_sensor:
       - invert:
       - delayed_off: 10ms
     on_press:
-      - switch.toggle: 
+      - switch.toggle:
           id: relay_1
 
   - platform: gpio
