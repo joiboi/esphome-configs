@@ -30,8 +30,6 @@ standard: global
 substitutions:
   device_name: sonoffmini_1
   device_ip: 192.168.x.x
-  
-
 
 esphome:
   name: ${device_name}
